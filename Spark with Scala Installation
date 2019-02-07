@@ -1,0 +1,39 @@
+Steps to install Spark with Scala in CentOS-7
+
+Scala Installation Steps
+
+
+1. wget http://www.scala-lang.org/files/archive/scala-2.10.1.tgz
+
+2. sudo gedit .bash_profile
+
+ 	 Add the below entry inside the file.
+
+	      export PATH=$PATH:/home/training/scala/bin
+
+	save and close the file
+
+3. source .bash_profile
+
+4. scala
+
+
+
+Spark Installation Steps
+
+
+1.  wget https://archive.apache.org/dist/spark/spark-1.6.0/spark-1.6.0-bin-cdh4.tgz
+2.  sudo  gedit  .bash_profile 
+
+      export PATH=$PATH:/home/training/spark/bin
+
+    Save and close
+    
+3.  source .bash_profile
+4. spark-shell
+
+
+
+
+
+
